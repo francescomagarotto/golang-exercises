@@ -2,9 +2,8 @@ package main
 
 import (
 	"database/sql"
-	"fiber-api/src/contact"
-	"fiber-api/src/database"
-	_ "fiber-api/src/database"
+	"fiber-api/contact"
+	"fiber-api/database"
 	"github.com/gofiber/fiber/v2"
 	_ "github.com/lib/pq"
 	"log"
